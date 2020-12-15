@@ -1,7 +1,7 @@
 export default (express, bodyParser, createReadStream, crypto, http, mongo) => {
     
     const app = express()
-    const author = 'itmo282167'
+    const author = 'itmo287666'
 
     const parseUrlEncodedBody = bodyParser.urlencoded({ extended: false })
 
